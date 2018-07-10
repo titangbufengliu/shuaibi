@@ -1,0 +1,320 @@
+
+
+.banner{
+	width: 1920px;
+	height: 500px;
+	position: relative;
+}
+ul{
+	list-style: none;
+}
+.banner .list{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner .list li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.banner .list .current{
+	display:block;
+}
+.banner .list li{
+	position: absolute;
+    left: 0;
+	top: 0;
+}
+.banner .btn{
+	position: absolute;
+	left: 50%;
+	margin-left: -132px;
+	bottom: 23px;
+}
+.banner .btn li{
+	background: #14a3b5;
+	behavior: url(PIE.htc);
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	float: left;
+	margin: 0 34px;
+	cursor: pointer;
+	position: relative;
+}
+.banner .btn .current{
+	background: #ffffff;
+}
+.banner .prev{
+	position: absolute;
+	left: 360px;
+	top: 50%;
+	margin-top: -65px;			
+}
+.banner .next{
+	position: absolute;
+	right: 360px;
+	top: 50%;
+	margin-top: -65px;
+}
+.about{
+	background: #f0fdff;
+}
+
+
+.title{
+	width: 215px;
+	margin: 0 auto;
+	background: url(../img/tit-pg.png) 0px 70px no-repeat;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 33px;
+}
+.title h2{
+	font-size: 26px;
+	color: #14a3b5;
+	margin-bottom: 10px;
+}
+.title h3{
+	font-size: 14px;
+	color: #14a3b5;
+}
+
+
+
+ .about .main{
+ 	width: 1200px;
+ 	padding-bottom: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.about .main>a:first-child{
+	display: block;
+	width: 584px;
+	border: 1px solid #14A3B5;
+	padding: 4px;
+	float: left;
+}
+.about .main>div{
+	width: 584px;
+	font-size: 14px;
+	color:#333333;
+	float: right;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.about .main .more{
+	width: 117px;
+	line-height: 40px;
+	color: #fff;
+	background:#14A3B5;
+	behavior: url(PIE.htc);
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	text-align: center;
+	
+}
+
+.products{
+	padding-bottom: 20px;
+}
+.products .main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.products .main ul{
+	overflow: hidden;
+	width:1400px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	
+}
+	
+.products .main ul li{
+	padding-top: 30px;
+	margin-left: 2px;
+	width: 268px;
+	height: 506px;
+	border: 1px solid #14a3b5;
+	background: #f0f0f0;
+	float:left;
+	margin-right: 42px;
+	position: relative;
+	margin-bottom: 50px;
+}
+.products .main ul li:last-child{
+	margin-right: 0px;
+	
+}
+
+.products .main ul li p{
+	font-size: 14px;
+	color: #333333;
+	position:  relative;
+	left: 18px;
+	bottom: -11%;
+}
+
+.products .main ul li:hover{
+	width: 290px;
+	height: 548px;
+	margin-top: -20px;
+	box-shadow: 0 0 10px #000;
+	background: #f0f0f0;
+	margin-bottom: 20px;
+}
+.products .main ul li:hover p{
+	bottom: -130px;
+}
+
+.news{
+	background: #f0fdff;
+	padding-bottom: 50px;
+}
+.news .main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.news .main>div{
+	width: 568px;
+	padding-bottom: 87px;
+	position: relative;
+}
+.news .main>div h2{
+	font-size: 18px;
+	color:#333333;
+	margin-top: -30px;
+	padding-bottom: 5px;
+}
+.news .main>div p{
+	font-size: 14px;
+	color: #333333;
+	width: 544px;
+	line-height: 22px;
+}
+
+.news .main>a{
+	float: right;
+}
+
+.news .main .more{
+	behavior: url(PIE.htc);
+	width: 117px;
+	line-height: 40px;
+	color: #fff;
+	background:#14A3B5;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	text-align: center;
+}
+.news .main li{
+	border-bottom:1px solid #a0a0a0;
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+
+.news .main li img{
+	float:left;
+	margin-top: 15px;
+	padding-right: 15px;
+}
+
+li{
+	list-style: none;
+}
+
+.news .main li span{
+	width:150px;
+	font-size:20px ;
+	display: block;
+    left: -60px;
+    bottom: -20px;
+    position: relative;
+    color:#fff;
+}
+
+.news .main li span+span{
+	font-size:12px ;
+	left: -72px;
+}
+
+.news .main li:hover h2,.news .main li:hover p{
+	color:#14a3b5;
+}
+
+
+
+ul{
+	list-style: none;
+}
+.news .main .action{
+	position: relative;
+	float: right;
+	width: 600px;
+	height: 362px;
+}
+.main .action div h3{
+	float: left;
+	margin-left: 10px;
+	line-height: 55px;
+	color:#FFFFFF;
+	font-size:20px;
+	position: relative;
+}
+.main .action div{
+	position: absolute;
+	bottom: 1px;
+	left: 0px;
+	width: 600px;
+	background: rgba(0,0,0,0.5);
+}
+.main .action ul{
+	position: relative;
+}
+
+.main .action li{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 600px;
+	height: 444px;
+	display: none;
+}
+.main .action li img{
+	padding: 0;
+	margin: 0;
+	top:0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.main .action ul .current{
+	display: block;
+}
+.main .action .btn .current{
+	background: #fff;
+}
+.main .action .btn{
+	height: 55px;
+}
+.main .action .btn li{
+	position: relative;
+	top:20px;
+	right: -50px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: #14a3b5;
+	cursor: pointer;
+}
